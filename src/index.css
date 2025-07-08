@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+@tailwind utilities;
+:root {
+  --primary: #0f0f13;
+  --secondary: #1a1a23;
+  --accent: #64ffda;
+  --text: #f0f0f0;
+  --text-secondary: #b8b8b8;
+}
+
+
+body {
+  background-color: var(--primary);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.accent-text {
+  color: var(--accent);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: var(--primary);
+  border: 2px solid var(--accent);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--accent);
+}
+
+.btn-outline {
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: var(--accent);
+  color: var(--primary);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Add more utility classes as needed */
