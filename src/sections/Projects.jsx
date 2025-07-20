@@ -56,6 +56,22 @@ const ProjectCard = ({ title, description, tags, githubLink, liveLink }) => {
 const Projects = () => {
   const projects = [
     {
+      title: "Blockchain Supply Chain Management System",
+      description:
+        "A blockchain-based supply chain management system that enhances transparency, security, and efficiency in tracking goods and transactions. Features include member registration, product tracking, and secure purchase records using smart contracts. Built with React, Solidity, and Ethereum, it provides a decentralized solution for modern supply chains.",
+      tags: ["React", "Solidity", "Ethereum", "Smart Contracts", "Blockchain", "Web3", "Supply Chain"],
+      githubLink: "https://github.com/NikeshSapkot/block-chain-supply",
+      liveLink: "https://block-chain-supply.netlify.app/",
+    },
+    {
+      title: "Fake News Detection AI",
+      description:
+        "A web application that leverages advanced machine learning and NLP models (RoBERTa, GPT-3.5 Turbo) to detect and classify fake news. Users can input news articles or headlines to receive instant credibility analysis. Built with Django, FastAPI, and Svelte, it demonstrates the power of AI in combating misinformation.",
+      tags: ["Python", "Django", "FastAPI", "Svelte", "NLP", "Machine Learning", "AI", "RoBERTa", "GPT-3.5"],
+      githubLink: "https://github.com/NikeshSapkot/fake-news-detection-ai",
+      liveLink: "https://fake-news-detection-a.netlify.app/",
+    },
+    {
       title: "Save-More",
       description: "A useful website which helps to connect volunteer with resturant to use extra foods for those who are in need of them",
       tags: ["React", "Node.js", "FireBase", "Netlify"],

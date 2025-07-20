@@ -55,8 +55,7 @@ const approachItems = [
   transition={{ duration: 0.6, delay: 0.2 }}
   className="max-w-2xl text-lg text-[#475569] mb-12"
 >
-  I'm a Full Stack Software Engineer with 5+ years of experience building robust, scalable, and user-centric applications. 
-  I specialize in end-to-end development — from crafting responsive interfaces to designing efficient backend systems and deploying full-stack solutions.
+  I'm a Computer Science student passionate about coding and software development. With experience in technical support roles, I've honed my communication and problem-solving skills. Skilled in Python, Django, Java, C++, and Swift, I enjoy building solutions that make an impact. As an active member of IEEE and ISO, I stay updated on industry trends and expand my professional network. My goal is to become a software engineer and contribute meaningfully to the tech industry. Always eager to learn and connect—let's collaborate!
 </motion.p>
 
         </div>
@@ -71,13 +70,22 @@ const approachItems = [
           >
             <h3 className="text-2xl font-bold mb-8 text-[#0c4a6e]">My Journey</h3>
 <p className="text-lg mb-8 text-[#475569]">
-  I began my career blending design thinking with frontend technologies, but quickly expanded into backend development, system architecture, and DevOps practices.
+  <b>Education:</b> <br/>
+  <b>Jacksonville State University</b> (Aug 2021 - May 2025): Bachelor of Science - Computer and Information Sciences, General (GPA: 3.5+). Activities: International Student Organization (ISO).<br/>
+  <b>Trinity International College and SS</b> (Jun 2019 - Dec 2020): High School Diploma, Computer Science (GPA: 3.75).
 </p>
 <p className="text-lg mb-8 text-[#475569]">
-  Over the years, I’ve worked with startups and enterprise teams to build web platforms, RESTful APIs, and microservices using modern tech stacks like React, Node.js, Express, PostgreSQL, and Docker.
+  <b>Experience:</b> <br/>
+  <b>Secretary - Nepalese Student Organization (NSO)</b> (Nov 2022 - Present)<br/>
+  <b>Secretary - IEEE</b> (Feb 2023 - Dec 2024)<br/>
+  <b>Student Worker - International House</b> (Dec 2021 - Oct 2022): Managed and maintained student databases, filtered and organized data, and provided support to students and staff.<br/>
+  <b>Data Analyst - Ad Factor Nepal</b> (Apr 2020 - Oct 2020): Collected and organized product information, performed data entry, and prepared data for analysis.<br/>
+  <b>Computer Lab Assistant - Little Star Higher School</b> (Mar 2017 - Feb 2018): Maintained student records, assisted with technical issues, and taught foundational HTML and CSS.
 </p>
 <p className="text-lg mb-12 text-[#475569]">
-  I believe in writing clean, scalable code and continuously learning to stay at the edge of technology. Outside work, I enjoy exploring tech blogs, contributing to open source, and mentoring junior devs.
+  <b>Skills:</b> Python, Django, Java, C++, Swift, Communication, Data Analysis, Microsoft Word, VLOOKUP, HTML, CSS, Exams, and more.<br/>
+  <b>Professional Activities:</b> Active member of IEEE and ISO. <br/>
+  <b>Goal:</b> To become a software engineer and contribute meaningfully to the tech industry.
 </p>
 
             <div className="grid grid-cols-3 gap-6">
